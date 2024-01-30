@@ -52,6 +52,7 @@ internal final class YPCameraVC: UIViewController, UIGestureRecognizerDelegate, 
         v.shotButton.isExclusiveTouch = true
         v.flipButton.isExclusiveTouch = true
         
+        
         // Focus
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.focusTapped(_:)))
         tapRecognizer.delegate = self
